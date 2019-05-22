@@ -3,7 +3,9 @@
 
 def key_for_min_value(name_hash)
   mink, minv = name_hash.first
-  
-  if name_hash.size == 0
 
+  if name_hash.size == 0
+    return nil
+  else
+    
 end
